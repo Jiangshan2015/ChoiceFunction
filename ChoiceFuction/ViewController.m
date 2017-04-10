@@ -89,6 +89,7 @@
 - (void)creatMyScrollView
 {
 #pragma mark - 可拖动的按钮
+    self.view.backgroundColor=[UIColor whiteColor];
     normalImage = [UIImage imageNamed:@"app_item_bg"];
     highlightedImage = [UIImage imageNamed:@"app_item_bg"];
     deleteIconImage = [UIImage imageNamed:@"30px_30px_-"];
